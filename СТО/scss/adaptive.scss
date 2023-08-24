@@ -1,0 +1,380 @@
+@media (min-width: 1920px) {
+  html {
+    font-size: 44px;
+  }
+  .phone-btn-blok-table {
+    &__inner {
+      width: 514px;
+    }
+  }
+  .about-us-main {
+    &__list {
+      width: 75%;
+    }
+  }
+  .about-us-main {
+    &__text-box {
+      width: 80%;
+    }
+  }
+  .contact-information {
+    &__inner {
+      width: 608px;
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .footer {
+    &__inner {
+      padding-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .logo--position--absolute {
+    right: 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 24px;
+  }
+  .phone-btn-blok-table {
+    &__box-phone {
+      height: 45px;
+    }
+  }
+  .about-us-main {
+    &__list {
+      width: 90%;
+    }
+    &__text-box {
+      width: 90%;
+    }
+  }
+  .about-us-icons__wrap {
+    width: 100%;
+  }
+  .about-us-timeline {
+    &__box {
+      width: 100%;
+    }
+  }
+  .logo {
+    &__img {
+      width: 240px;
+    }
+  }
+  .footer {
+    &__inner {
+      padding-bottom: 75px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .contact-information__wrap {
+    padding-top: 20px;
+  }
+  .contact-information {
+    &__inner {
+      padding-top: 30px;
+      width: 383px;
+    }
+    &__phone-link {
+      padding-top: 3px;
+    }
+    &__olx-link-url{
+      padding-top: 9px;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .header {
+    &__burger {
+      display: block;
+      z-index: 3;
+    }
+    &__burger.active {
+      
+    }
+    &__burger.active span {
+      display: none;
+    }
+    &__burger.active::before {
+      top: 20px;
+      rotate: 135deg;
+      transition: 0.3s;
+    }
+    &__burger.active::after {
+      rotate: 225deg;
+      bottom: 20px;
+      transition: 0.3s;
+    }
+    &__burger::before {
+      top: 0px;
+      rotate: 0deg;
+      transition: 0.3s;
+    }
+    &__burger::after {
+      rotate: 0deg;
+      bottom: 0px;
+      transition: 0.3s;
+    }
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #2C2C2C;
+  }
+  .header-list-links {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #575757;
+    left: 0;
+    padding-top: 175px;
+    display: block;
+    opacity: 0;
+    top: -100%;
+    transition: 0.7s;
+
+    &__item {
+      margin-right: 0;
+    }
+    &__link {
+      font-size: 40px;
+      text-align: center;
+      padding: 16px 14px;
+      display: block;
+      width: 80%;
+      margin: 0 auto 22px auto;
+      background-color: #393939;
+    }
+    &__link:hover {
+      border-radius: 0;
+      background-color: #313131;
+    }
+  }
+  .header-list-links.active {
+    top: 0;
+    opacity: 1;
+    transition: 0.7s;
+  }
+  .header-list-links--margin-left--47px {
+    margin-left: 0;
+  }
+  .logo {
+    z-index: 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .phone-btn__wrap {
+    right: 40px;
+  }
+  .contaner-services-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-box {
+    &__wrap {
+      width: 70%;
+      margin-bottom: 40px;
+    }
+  }
+  .footer {
+    &__inner {
+      flex-direction: column-reverse;
+      padding-top: 5px;
+      padding-bottom: 55px;
+    }
+  }
+  .contact-information {
+
+    &__inner {
+      margin: 0 auto;
+    }
+  }
+  .map__wrap {
+    margin: 35px auto 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 810px) {
+  .about-us {
+    &__inner {
+      flex-direction: column;
+    }
+  }
+  .icons-timeline-wrap {
+    width: 100%;
+  }
+  .about-us-main__wrap {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-us {
+    padding: 40px 0;
+  }
+  .about-us-icons__wrap {
+    width: 500px;
+  }
+  .about-us-icons {
+    &__icon {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  .about-us-timeline__wrap {
+    margin: 10px 20px;
+  }
+  .phone-btn__wrap {
+    bottom: 25px;
+  }
+  .phone-btn {
+    &__1 {
+      width: 40px;
+      height: 47px;
+      top: 33px;
+      left: 37.5px;
+    }
+    &__2 {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .services-box {
+    &__wrap {
+      width: 80%;
+    }
+  }
+}
+@media(max-width: 650px) {
+  .services-box__wrap {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .phone-btn-blok-table {
+    &__inner {
+      width: 85%;
+    }
+    &__box-phone {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  .header-list-links {
+    &__link {
+      font-size: 25px;
+    }
+  }
+  .about-us-icons__wrap {
+    width: 100%;
+  }
+  .services-box {
+    &__title {
+      font-size: 1rem;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+  .contact-information {
+    &__inner {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .about-us-main {
+    &__title {
+      font-size: 1.67rem;
+    }
+  }
+  .phone-btn__wrap {
+    bottom: 25px;
+    right: 20px;
+  }
+  .phone-btn-blok-table {
+    &__inner {
+      width: 85%;
+      margin-left: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &__box-phone {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    &__box-phone:hover {
+      padding: 12px 10px;
+    }
+  }
+
+  .about-us-icons {
+    &__icon {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .logo--position--absolute {
+    top: 60px;
+    right: 11px;
+  }
+  .logo {
+    &__img {
+      width: 160px;
+    }
+  }
+  .services-box {
+    &__title {
+      font-size: 0.95rem;
+    }
+  }
+  .contact-information {
+    &__phone-link-viber {
+      width: 50px;
+      height: 45px;
+    }
+    &__phone-viber-img {
+      width: 50px;
+      height: 45px;
+    }
+    &__phone-viber-img:hover {
+      width: 47px;
+      height: 42px;
+    }
+    &__phone-link {
+      font-size: 1.3rem;
+      padding-top: 5px;
+    }
+    &__olx-link {
+      width: 65px;
+    }
+    &__olx-img {
+      width: 65px;
+    }
+    &__olx-img:hover {
+      width: 62px;
+    }
+    &__olx-link-url {
+      font-size: 1.1rem;
+      padding-top: 10px;
+    }
+  }
+}
+
+@media(max-height: 600px) {
+  .phone-btn-blok-table {
+    &__inner {
+      margin-top: 168px;
+    }
+  }
+}
